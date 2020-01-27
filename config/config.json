@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "hovergames",
+    "password": "hovergames",
+    "database": "hovergames",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "hovergames",
+    "password": "hovergames",
+    "database": "hovergames",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "hovergames",
+    "password": "hovergames",
+    "database": "hovergames",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}

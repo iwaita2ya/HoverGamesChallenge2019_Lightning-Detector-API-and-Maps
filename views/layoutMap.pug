@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta(name="viewport" content="initial-scale=1.0, user-scalable=no")
+    meta(http-equiv='content-type', content='text/html; charset=utf-8')
+    meta(name='robots' content='noindex,nofollow,noarchive')
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/javascripts/map.js", type="text/javascript", id="map_js", data-devices=JSON.stringify(devices))
+
+  body
+    block content
+    //script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=' + apiKey + "%26callback=initialize" type='text/javascript')
+    script(async='', defer='', src=`https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initialize` type='text/javascript')

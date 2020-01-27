@@ -1,0 +1,14 @@
+.idea
+
+# Linux
+.directory
+*~
+
+# env
+#config/.env*
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
